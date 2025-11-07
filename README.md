@@ -5,8 +5,8 @@
 
 | Name of Student | Roll No. | Role / Work Done |
 |-----------------|-----------|------------------|
-| Alpha | [Your Roll No.] | Data preprocessing, model training, hyperparameter tuning, model evaluation, and deployment |
-| Beta | [Friend's Roll No.] | Data analysis, Streamlit web application development, model integration, and documentation |
+| Mohammed Aamer | 2023BIT064 | Data preprocessing, model training, hyperparameter tuning, model evaluation, and deployment |
+| Mane Rohan | 2023BIT025 | Data analysis, Streamlit web application development, model integration, and documentation |
 
 ## **Project Description**
 
