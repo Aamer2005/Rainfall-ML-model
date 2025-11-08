@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load your trained model
 model = joblib.load("model2.pkl")
 scaler = joblib.load("scaler2.pkl")
 
