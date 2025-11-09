@@ -41,10 +41,10 @@ The model uses 11 meteorological parameters to make predictions:
 - Wind speed
 
 ### **Project Structure:**
-- `model_copy.ipynb` - Jupyter notebook containing data analysis, model training, and evaluation
-- `frontend_copy.py` - Streamlit web application for user interaction
-- `model2.pkl` - Serialized trained model
-- `scaler2.pkl` - Serialized scaler for data preprocessing
+- `model.ipynb` - Jupyter notebook containing data analysis, model training, and evaluation
+- `frontend.py` - Streamlit web application for user interaction
+- `model.pkl` - Serialized trained model
+- `scaler.pkl` - Serialized scaler for data preprocessing
 - `train.csv` - Training dataset
 - `test.csv` - Test dataset
 
