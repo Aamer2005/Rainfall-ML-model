@@ -5,8 +5,8 @@
 
 | Name of Student | Roll No. | Role / Work Done |
 |-----------------|-----------|------------------|
-| Mohammed Aamer | 2023BIT064 | Data preprocessing, model training, hyperparameter tuning, model evaluation, and deployment |
-| Mane Rohan | 2023BIT025 | Data analysis, Streamlit web application development, model integration, and documentation |
+| Mohammed Aamer | 2023BIT064 | Data preprocessing, model training,Streamlit web application development,model integration ,documentation and documentation  |
+| Mane Rohan | 2023BIT025 | Data analysis,model training, hyperparameter tuning, model integration,model evaluation, and deployment |
 
 ## **Project Description**
 
