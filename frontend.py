@@ -6,7 +6,7 @@ model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 # App title
-st.title("🌦️ Weather Prediction using Logistic Regression")
+st.title(" Weather Prediction using Logistic Regression")
 
 st.write("Enter the input values below and click **Predict** to get the model's output.")
 
@@ -36,5 +36,5 @@ if st.button("Predict"):
     y_pred = model.predict_proba(test_scaled_df)[:,1]
 
     # Display result
-    # st.success(f"✅ Prediction: {prediction[0]}")
-    st.success(f"✅ Prediction: {y_pred[:]}")
+    # st.success(f" Prediction: {prediction[0]}")
+    st.success(f" Prediction: {y_pred[:]}")
