@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load your trained model
 model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
@@ -25,7 +24,7 @@ winddirection = st.number_input("Wind Direction (°)", value=30.0)
 windspeed = st.number_input("Wind Speed (km/h)", value=38.3)
 
 # When the user clicks the button
-if st.button("🔮 Predict"):
+if st.button("Predict"):
     # Prepare the input array (11 features)
     input_data = np.array([[day, pressure, maxtemp, temperature, mintemp,
                             dewpoint, humidity, cloud, sunshine, winddirection, windspeed]])
